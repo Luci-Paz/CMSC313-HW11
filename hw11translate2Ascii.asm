@@ -79,12 +79,13 @@ _start:
     ; place a space between bytes, then work on the next byte
     mov byte [edi], ' '
     inc edi
-    loop .next_byte
+    loop .nextByte
 
 
     ; remove last space and replace with a newline
     dec edi
     mov byte [edi], 0x0A
+    inc edi
 
 
     ; Calculate the number of bytes written
