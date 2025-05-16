@@ -8,7 +8,7 @@ Lucian Pazour (UMBC / CMSC313-01, MoWe 8:30AM - 9:45AM / 05152025)
 
 ## What The Program Does
 The program takes an input of different hexidecimal numbers and displays the hexidecimal digits as ascii characters.   
-- The input is predefined in the program with the memory location being labelled as the `inputBuf` and the information is stored as bytes
+- The input is predefined in the program with the memory location labelled as `inputBuf` and the information is stored as bytes
 
 <br>
 
