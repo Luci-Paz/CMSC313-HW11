@@ -1,5 +1,6 @@
 # Makefile for HW11 Translate To ASCII Prorgam
 # Author: Lucian Pazour
+# Class: CMSC313 - (UMBC / CMSC313-01, MoWe 8:30AM - 9:45AM)
 # Date: 05/15/2025
 
 

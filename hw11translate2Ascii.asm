@@ -25,7 +25,8 @@ section .text
 byteToAscii:
     push ax
 
-    ; Convert the MSB to ascii
+    ; Convert the MSB to ascii 
+    ; Save the original byte value from AL into AH and mask the LSB
     mov ah, al
     shr al, 4
     cmp al, 9
@@ -52,6 +53,7 @@ byteToAscii:
     mov [edi + 1], al
 
 
+    ; Restore AX and return to the caller
     pop ax
     ret
 
